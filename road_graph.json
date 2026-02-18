@@ -10,8 +10,10 @@
     },
 
     "sampling": {
-      "enabled": false,
-      "intervalMeters": 0
+    "enabled": false,
+    "strategy": "none",
+    "intervalMeters": 0,
+    "generatedBy": "google_original"
     },
 
     "topology": {
