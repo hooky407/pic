@@ -1,7 +1,30 @@
 {
   "graphMetadata": {
     "coordinateSystem": "WGS84",
+    "projection": "LocalENU",
     "dataSource": "GoogleRoutes",
+
+    "units": {
+      "distance": "meters",
+      "geometry": "WGS84_lat_lng"
+    },
+
+    "sampling": {
+      "enabled": false,
+      "intervalMeters": 0
+    },
+
+    "topology": {
+      "intersectionMerged": true,
+      "nodeDeduplicated": true,
+      "mergeToleranceMeters": 1.0
+    },
+
+    "geometryPrecision": {
+      "latLngDecimalPlaces": 6,
+      "expectedErrorMeters": 0.5
+    },
+
     "isPartial": true
   },
   "nodes": [
